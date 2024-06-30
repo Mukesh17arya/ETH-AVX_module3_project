@@ -13,8 +13,8 @@ contract ERC20_Tokens {
     event Minting(address indexed to, uint value);
 
     constructor() {
-        name = "Counter_Strike";
-        logo = "CS_GO";
+        name = "Counter_world";
+        logo = "CW";
         get_decimals = 18;
         overallSupply = 1000 * 10** uint(get_decimals);
         balance[msg.sender] = overallSupply;
